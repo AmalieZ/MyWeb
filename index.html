@@ -7,80 +7,157 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="bootstrap.rtl.css">
-    <title>Firma</title>
+    <title>Sneaker Mode</title>
 
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-        <a class="navbar-brand" href="#">TechNova Solutions</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <li class="nav-link" href="#contact">Kontakt</li>
-                    <li class="nav-link" href="#mainPage">Hlavní stránka</li>
-                    <li class="nav-link" href="#products">Produkty</li>
-                </li>
-            </ul>
-        </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light px-4">
+    <a class="navbar-brand" href="#">Sneaker Mode</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Hlavní stránka</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="items.html">Produkty</a>
+            </li>
+        </ul>
     </div>
 </nav>
 
-<header class="bg-dark
-     text-white text-center py-5">
+    <header class="bg-dark text-center py-5">
+       <h1 class="display-4 text-white">Sneaker Mode</h1>
+        <p class="lead text-white">Moderní obuv pro každého</p>
+        <a href="#oNas" class="btn btn-outline-light mb-2">O nás</a>
+        <a href="#nabidka" class="btn btn-outline-light mb-2">Nabídka</a>
+    </header>
+
+    <section id="oNas" class="py-5 bg-white">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                <h2>O nás</h2>
+                <p class="lead">Jsme e-shop s obuví - váš online partner pro nejnovější módní trendy.
+                Našim cílem je nabídnout kvalitní a cenově dostupnou obuv pro každého. </p>
+                </div>
+                <div class="col-md-6">
+                <img src="https://www.creativefabrica.com/wp-content/uploads/2021/05/05/Sneaker-shoe-line-art-logo-design-icon-Graphics-11717943-1-1-580x387.jpg" class="img-fluid" alt="O nás ">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="nabidka" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Nabídka</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://static.flexdog.cz/flexdog-7/products/images/7d2abde2-1e00-489f-8f0b-7440b74aa5ab_instyle_ai.png?width=828&quality=40" class="card-img-top" alt="Produkt 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Air Jordan 4</h5>
+                            <p class="card-text">Military Black</p>
+                            <p class="text-muted">Cena: 10 000 Kč </p>
+                            <a href="#" class="btn btn-dark">Koupit</a>
+                            <a href="items.html" class="btn btn-outline-dark">Zobrazit více</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://static.flexdog.cz/flexdog-9/products/images/9af04d0d-a86f-46b4-b9f9-4351042fdb36_instyle_ai.jpeg?width=828&quality=40" class="card-img-top" alt="Produkt 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Air Jordan 1 Mid</h5>
+                            <p class="card-text">White Shadow</p>
+                            <p class="text-muted">Cena: 3 000 Kč </p>
+                            <a href="#" class="btn btn-dark">Koupit</a>
+                            <a href="items.html" class="btn btn-outline-dark">Zobrazit více</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://static.flexdog.cz/flexdog-c/products/images/0ead1341-2c33-4541-81b0-3f1b5605b8cf_instyle_ai.jpg?width=828&quality=80" class="card-img-top" alt="Produkt 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Air Force 1'07</h5>
+                            <p class="card-text">Panda</p>
+                            <p class="text-muted">Cena: 3 000 Kč</p>
+                            <a href="#" class="btn btn-dark">Koupit</a>
+                            <a href="items.html" class="btn btn-outline-dark">Zobrazit více</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-4">Kontaktujte nás</h2>
+            <form>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="textinput">Jméno:</label>
+                        <input id="textinput" type="text" class="form-control" placeholder="Jméno">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputemail">Email:</label>
+                        <input id="inputemail" class="form-control" placeholder="Email">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="text">Vaše zpráva</label>
+                        <textarea id="text" class="form-control" rows="4" placeholder="Vaše zpráva"></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-dark">Odeslat</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+<section class="py-5 bg-light">
     <div class="container">
-        <h1>Vítejte v TechNova Solutions</h1>
-        <p class="lead">Moderní IT řešení pro váš business </p>
-    </div>
-</header>
+        <h2 class="text-center mb-4">Časté dotazy (FAQ)</h2>
+        <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                        Jak dlouho trvá doručení?
+                    </button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Doručení obvykle trvá 2–4 pracovní dny.
+                    </div>
+                </div>
+            </div>
 
-<section id="about" class="py-5">
-    <div class="container text-center">
-        <h2>O nás</h2>
-        <p class="lead">Jsme inovativní IT společnost zaměřená na vývoj softwaru a digitální tranformaci</p>
-    </div>
-</section>
-
-<section class="py-5">
-
-</section>
-
-<section id="services" class="bg-light py-5">
-    <div class="container text-center">
-        <h2>Naše služby</h2>
-        <div class="row">
-            <h4>Vývoj webových aplikací</h4>
-            <p>Moderní a reponzivní webové aplikace na míru</p>
-        </div>
-        <div class="col-md-4">
-            <h4>Cloudové služby</h4>
-            <p>Bezpečné a škálovatelné cloudové řešení</p>
-        </div>
-        <div class="col-md-4">
-            <h4>IT konzultace</h4>
-            <p>Profesionální poradenství v oblasti IT a digitalizace</p>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                        Jak mohu produkt vrátit?
+                    </button>
+                </h2>
+                <div id="faq2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Produkt můžete vrátit do 14 dní bez udání důvodu.
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
-<section id="contact" class="py-5">
-    <div class="container text-center">
-        <h2>Kontakt</h2>
-        <p>Email: info@technova.cz</p>
-        <p>Telefon: +420 123 456 789</p>
-    </div>
-</section>
+    <footer class="bg-dark text-white text-center py-2">
+        <p>&copy; Vytvořila: Amálie Zaorálková</p>
+    </footer>
 
-<footer class="bg-dark text-white text-center py-5">
-    <p>&copy; 2025 TechNova Solutions</p>
-</footer>
-
-<script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-
-
